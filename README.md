@@ -54,7 +54,8 @@ python detect_mask_video.py --video path/to/video.mp4
 
 Make sure the trained model (e.g., mask_detector.model) is present in the project folder.
 
-Project Structure
+Project Structure: 
+```bash
 Face-Mask-Detector/
 ├── detect_mask_video.py
 ├── detect_mask_image.py
@@ -62,15 +63,14 @@ Face-Mask-Detector/
 ├── dataset/                
 ├── requirements.txt
 └── README.md
+```
 
-Dataset
+Dataset:
 The model was trained on a dataset of masked and unmasked faces collected from various open-source sources. You can replace or expand the dataset for improved accuracy.
 
-Acknowledgements
+Acknowledgements:
+
 OpenCV
-
 TensorFlow
-
 Keras
-
 Inspired by the global need for COVID-19 safety tools
