@@ -70,7 +70,9 @@ The model was trained on a dataset of masked and unmasked faces collected from v
 
 Acknowledgements:
 
-OpenCV
-TensorFlow
-Keras
+OpenCV, 
+TensorFlow, 
+Keras, 
+
+
 Inspired by the global need for COVID-19 safety tools
