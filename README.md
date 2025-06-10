@@ -32,33 +32,29 @@ A deep learning-based computer vision project that detects whether a person is w
    cd Face-Mask-Detector
 
 2. Install dependencies:
+   ```
    pip install -r requirements.txt
 
 How to Use
+
 To run on a webcam feed:
-
-bash
-Copy
-Edit
+ ```bash
 python detect_mask_video.py
+```
+
 To run on a static image:
-
-bash
-Copy
-Edit
+```bash
 python detect_mask_image.py --image path/to/image.jpg
-To test on video file:
+```
 
-bash
-Copy
-Edit
+To test on video file:
+```bash
 python detect_mask_video.py --video path/to/video.mp4
+```
+
 Make sure the trained model (e.g., mask_detector.model) is present in the project folder.
 
 Project Structure
-bash
-Copy
-Edit
 Face-Mask-Detector/
 ├── detect_mask_video.py
 ├── detect_mask_image.py
