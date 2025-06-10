@@ -72,7 +72,7 @@ Acknowledgements:
 
 OpenCV, 
 TensorFlow, 
-Keras, 
+Keras
 
 
 Inspired by the global need for COVID-19 safety tools
